@@ -13,6 +13,9 @@
 		681494692438A82B0080BD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681494672438A82B0080BD2A /* Main.storyboard */; };
 		6814946B2438A82E0080BD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6814946A2438A82E0080BD2A /* Assets.xcassets */; };
 		6814946E2438A82E0080BD2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6814946C2438A82E0080BD2A /* LaunchScreen.storyboard */; };
+		681494762438AD3D0080BD2A /* DisneyPark.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 681494752438AD3D0080BD2A /* DisneyPark.ttf */; };
+		681494792438AD500080BD2A /* Neucha-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 681494782438AD500080BD2A /* Neucha-Regular.ttf */; };
+		6814947B2438B2B60080BD2A /* ZodiacModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6814947A2438B2B60080BD2A /* ZodiacModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6814946A2438A82E0080BD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6814946D2438A82E0080BD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6814946F2438A82E0080BD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681494752438AD3D0080BD2A /* DisneyPark.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DisneyPark.ttf; sourceTree = "<group>"; };
+		681494782438AD500080BD2A /* Neucha-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neucha-Regular.ttf"; sourceTree = "<group>"; };
+		6814947A2438B2B60080BD2A /* ZodiacModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,56 @@
 			children = (
 				681494612438A82B0080BD2A /* AppDelegate.swift */,
 				681494632438A82B0080BD2A /* SceneDelegate.swift */,
-				681494652438A82B0080BD2A /* ViewController.swift */,
-				681494672438A82B0080BD2A /* Main.storyboard */,
-				6814946A2438A82E0080BD2A /* Assets.xcassets */,
-				6814946C2438A82E0080BD2A /* LaunchScreen.storyboard */,
+				6814947C2438B2DF0080BD2A /* Model */,
+				6814947D2438B2E70080BD2A /* View */,
+				6814947E2438B2F70080BD2A /* Controller */,
+				6814947F2438B3080080BD2A /* Supporting FIles */,
 				6814946F2438A82E0080BD2A /* Info.plist */,
+				681494772438AD430080BD2A /* Fonts */,
 			);
 			path = DailyOracle;
+			sourceTree = "<group>";
+		};
+		681494772438AD430080BD2A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				681494752438AD3D0080BD2A /* DisneyPark.ttf */,
+				681494782438AD500080BD2A /* Neucha-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6814947C2438B2DF0080BD2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6814947A2438B2B60080BD2A /* ZodiacModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6814947D2438B2E70080BD2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				681494672438A82B0080BD2A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6814947E2438B2F70080BD2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				681494652438A82B0080BD2A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6814947F2438B3080080BD2A /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				6814946A2438A82E0080BD2A /* Assets.xcassets */,
+				6814946C2438A82E0080BD2A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681494762438AD3D0080BD2A /* DisneyPark.ttf in Resources */,
 				6814946E2438A82E0080BD2A /* LaunchScreen.storyboard in Resources */,
 				6814946B2438A82E0080BD2A /* Assets.xcassets in Resources */,
+				681494792438AD500080BD2A /* Neucha-Regular.ttf in Resources */,
 				681494692438A82B0080BD2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +192,7 @@
 				681494662438A82B0080BD2A /* ViewController.swift in Sources */,
 				681494622438A82B0080BD2A /* AppDelegate.swift in Sources */,
 				681494642438A82B0080BD2A /* SceneDelegate.swift in Sources */,
+				6814947B2438B2B60080BD2A /* ZodiacModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
