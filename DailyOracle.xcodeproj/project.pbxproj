@@ -16,6 +16,8 @@
 		681494762438AD3D0080BD2A /* DisneyPark.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 681494752438AD3D0080BD2A /* DisneyPark.ttf */; };
 		681494792438AD500080BD2A /* Neucha-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 681494782438AD500080BD2A /* Neucha-Regular.ttf */; };
 		6814947B2438B2B60080BD2A /* ZodiacModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6814947A2438B2B60080BD2A /* ZodiacModel.swift */; };
+		681494812438C1F90080BD2A /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681494802438C1F90080BD2A /* CollectionView.swift */; };
+		681494832438C3CD0080BD2A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681494822438C3CD0080BD2A /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		681494752438AD3D0080BD2A /* DisneyPark.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DisneyPark.ttf; sourceTree = "<group>"; };
 		681494782438AD500080BD2A /* Neucha-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neucha-Regular.ttf"; sourceTree = "<group>"; };
 		6814947A2438B2B60080BD2A /* ZodiacModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacModel.swift; sourceTree = "<group>"; };
+		681494802438C1F90080BD2A /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		681494822438C3CD0080BD2A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				681494672438A82B0080BD2A /* Main.storyboard */,
+				681494802438C1F90080BD2A /* CollectionView.swift */,
+				681494822438C3CD0080BD2A /* CollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				681494662438A82B0080BD2A /* ViewController.swift in Sources */,
+				681494812438C1F90080BD2A /* CollectionView.swift in Sources */,
+				681494832438C3CD0080BD2A /* CollectionViewCell.swift in Sources */,
 				681494622438A82B0080BD2A /* AppDelegate.swift in Sources */,
 				681494642438A82B0080BD2A /* SceneDelegate.swift in Sources */,
 				6814947B2438B2B60080BD2A /* ZodiacModel.swift in Sources */,

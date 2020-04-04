@@ -25,22 +25,22 @@
                                 <fontDescription key="fontDescription" name="Neucha" family="Neucha" pointSize="60"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.92549019610000005" green="0.83921568629999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="4" height="-2"/>
+                                <color key="shadowColor" red="0.41176470590000003" green="0.46666666670000001" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your Sign!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niu-ZF-vGh">
-                                <rect key="frame" x="20" y="159.5" width="374" height="44.5"/>
+                                <rect key="frame" x="20" y="249.5" width="374" height="43.5"/>
                                 <fontDescription key="fontDescription" name="Neucha" family="Neucha" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" red="0.56447934144295298" green="0.48196308724832215" blue="0.91803306340000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.92549019610000005" green="0.83921568629999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="2" height="2"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.74509803919999995" green="0.54117647059999996" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XJM-YR-Yfm" secondAttribute="trailing" constant="20" id="5tH-O5-uxb"/>
-                            <constraint firstItem="niu-ZF-vGh" firstAttribute="top" secondItem="XJM-YR-Yfm" secondAttribute="bottom" constant="10" id="6Vv-Ay-O6e"/>
+                            <constraint firstItem="niu-ZF-vGh" firstAttribute="top" secondItem="XJM-YR-Yfm" secondAttribute="bottom" constant="100" id="6Vv-Ay-O6e"/>
                             <constraint firstItem="XJM-YR-Yfm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="6gw-Ho-8iZ"/>
                             <constraint firstItem="niu-ZF-vGh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EBJ-75-uhP"/>
                             <constraint firstItem="XJM-YR-Yfm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="l6p-bR-XSm"/>
@@ -48,6 +48,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="chooseLabel" destination="niu-ZF-vGh" id="3zh-2r-BKQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
